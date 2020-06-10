@@ -1,0 +1,6 @@
+D:\source\repos\Screenshot\Screenshot.Model\bin\Debug\Screenshot.Model.dll
+D:\source\repos\Screenshot\Screenshot.Model\bin\Debug\Screenshot.Model.pdb
+D:\source\repos\Screenshot\Screenshot.Model\obj\Debug\Screenshot.Model.csprojAssemblyReference.cache
+D:\source\repos\Screenshot\Screenshot.Model\obj\Debug\Screenshot.Model.csproj.CoreCompileInputs.cache
+D:\source\repos\Screenshot\Screenshot.Model\obj\Debug\Screenshot.Model.dll
+D:\source\repos\Screenshot\Screenshot.Model\obj\Debug\Screenshot.Model.pdb

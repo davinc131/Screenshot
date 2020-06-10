@@ -1,0 +1,64 @@
+﻿<Window x:Class="Screenshot.WinApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Screenshot.WinApp"
+        mc:Ignorable="d"
+        Title="Screenshot Teamviewer" Height="437.5" Width="731" ResizeMode="NoResize" Icon="Apps-screenshot-icon.png" Closing="Window_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TabControl Grid.RowSpan="3" Grid.ColumnSpan="3">
+            <TabItem Header="Instructions">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Image Width="100" Source="Apps-screenshot-icon.png"/>
+                        <Label Content="ScreenShot TeamViewer" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" FontSize="18" FontWeight="Bold"/>
+
+                    </StackPanel>
+                    <TextBox x:Name="txtInstructions" Grid.Row="1" TextWrapping="Wrap" Text="O Screenshot Teamviewer é um simples utilitário para facilitar o processo de reinicialização de sistemas operacionais possibilitando que não perca a conexão, mesmo após o desligamento acidental de um pc. Com essa ferramenta você pode receber por email o print de tela do Teamviewer para acessar novamente. Coloque apenas as suas credenciais (email e senha) e o caminho do .exe do aplicativo. Para o perfeito funcionamento do programa é importante que você possa configurar o seu email do Google para aceitar acesso de aplicativos menos seguros. Faça isso acessando este link: https://myaccount.google.com/lesssecureapps" Grid.RowSpan="2" Margin="10" FontSize="18" IsReadOnlyCaretVisible="True"/>
+
+
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Configuration">
+                <Grid Background="#FFE5E5E5" Margin="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="20*"/>
+                        <ColumnDefinition Width="147*"/>
+                        <ColumnDefinition Width="553*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Email:" Margin="0,16" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="14" FontWeight="Bold" Grid.ColumnSpan="2"/>
+                    <Label Content="Senha:" Margin="0,16" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="14" FontWeight="Bold" Grid.Row="1" Grid.ColumnSpan="2"/>
+                    <Label Content="Caminho do Programa:" Margin="0,16" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="14" FontWeight="Bold" Grid.Row="2" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="txtEmail" Grid.Column="2" Height="24" Margin="0,18" TextWrapping="Wrap" Width="542" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtPath" Grid.Column="2" Height="22" Margin="0,19" TextWrapping="Wrap" VerticalAlignment="Center" Width="542" HorizontalAlignment="Left" Grid.Row="2"/>
+                    <PasswordBox x:Name="txtPassword" Grid.Column="2" HorizontalAlignment="Left" Margin="0,18" Grid.Row="1" VerticalAlignment="Center" Width="542" Height="24"/>
+                    <Button x:Name="btnGravar" Content="Gravar" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="3" VerticalAlignment="Center" Width="75" FontSize="14" FontWeight="Bold" Click="btnGravar_Click" Grid.ColumnSpan="3"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
