@@ -40,7 +40,7 @@ namespace Screenshot.WinApp
                 if (SerializeConfiguration.ExistArchice())
                 {
                     StartProgram startProgram = new StartProgram();
-                    ThreadManager.ThreadManagerApp(15000);
+                    ThreadManager.ThreadManagerApp(20000);
                     ScreenshotImage.ScreenShot(this);
                     LoadConfiguration();
                     SendEmail.Send();
