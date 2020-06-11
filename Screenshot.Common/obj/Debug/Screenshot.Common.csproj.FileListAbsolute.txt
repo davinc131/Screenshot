@@ -7,3 +7,12 @@ D:\source\repos\Screenshot\Screenshot.Common\obj\Debug\Screenshot.Common.csproj.
 D:\source\repos\Screenshot\Screenshot.Common\obj\Debug\Screenshot.Common.csproj.CopyComplete
 D:\source\repos\Screenshot\Screenshot.Common\obj\Debug\Screenshot.Common.dll
 D:\source\repos\Screenshot\Screenshot.Common\obj\Debug\Screenshot.Common.pdb
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\bin\Debug\Screenshot.Common.dll
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\bin\Debug\Screenshot.Common.pdb
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\bin\Debug\Screenshot.Model.dll
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\bin\Debug\Screenshot.Model.pdb
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\obj\Debug\Screenshot.Common.csprojAssemblyReference.cache
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\obj\Debug\Screenshot.Common.csproj.CoreCompileInputs.cache
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\obj\Debug\Screenshot.Common.csproj.CopyComplete
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\obj\Debug\Screenshot.Common.dll
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\obj\Debug\Screenshot.Common.pdb

@@ -15,3 +15,23 @@ D:\source\repos\Screenshot\Screenshot.WinApp\obj\Debug\Screenshot.WinApp.csproj.
 D:\source\repos\Screenshot\Screenshot.WinApp\obj\Debug\Screenshot.WinApp.csproj.CoreCompileInputs.cache
 D:\source\repos\Screenshot\Screenshot.WinApp\obj\Debug\Screenshot.WinApp.exe
 D:\source\repos\Screenshot\Screenshot.WinApp\obj\Debug\Screenshot.WinApp.pdb
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.WinApp\bin\Debug\Screenshot.WinApp.exe.config
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.WinApp\bin\Debug\Screenshot.WinApp.exe
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.WinApp\bin\Debug\Screenshot.WinApp.pdb
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.WinApp\bin\Debug\Screenshot.Common.dll
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.WinApp\bin\Debug\Screenshot.Model.dll
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.WinApp\bin\Debug\Screenshot.Common.pdb
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.WinApp\bin\Debug\Screenshot.Model.pdb
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.WinApp\obj\Debug\Screenshot.WinApp.csprojAssemblyReference.cache
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.WinApp\obj\Debug\MainWindow.g.cs
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.WinApp\obj\Debug\App.g.cs
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.WinApp\obj\Debug\Screenshot.WinApp_MarkupCompile.cache
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.WinApp\obj\Debug\Screenshot.WinApp_MarkupCompile.lref
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.WinApp\obj\Debug\MainWindow.baml
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.WinApp\obj\Debug\Screenshot.WinApp.g.resources
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.WinApp\obj\Debug\Screenshot.WinApp.Properties.Resources.resources
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.WinApp\obj\Debug\Screenshot.WinApp.csproj.GenerateResource.cache
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.WinApp\obj\Debug\Screenshot.WinApp.csproj.CoreCompileInputs.cache
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.WinApp\obj\Debug\Screenshot.WinApp.csproj.CopyComplete
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.WinApp\obj\Debug\Screenshot.WinApp.exe
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.WinApp\obj\Debug\Screenshot.WinApp.pdb

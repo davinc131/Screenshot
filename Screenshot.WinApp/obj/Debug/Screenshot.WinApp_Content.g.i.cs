@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("apps-screenshot-icon.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("saki-nuovext-2-apps-screenshot.ico")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("screenshot_4.png")]
 
 

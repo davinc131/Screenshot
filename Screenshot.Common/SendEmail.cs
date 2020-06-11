@@ -15,8 +15,8 @@ namespace Screenshot.Common
             try
             {
                 var conf = SerializeConfiguration.ReaderXml();
-                var directory = Directory.GetCurrentDirectory();
-                var path = Path.Combine(directory, "Screenshot.png");
+                var c = Path.GetDirectoryName(AppDomain.CurrentDomain.BaseDirectory.ToString());
+                var path = Path.Combine(c, "Screenshot.png");
 
                 MailMessage mail = new MailMessage();
                 SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");

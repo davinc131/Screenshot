@@ -112,5 +112,14 @@
       <Name>Screenshot.Model</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ScreenshotTeamviewer-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ScreenshotTeamviewer-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Screenshot_4.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
