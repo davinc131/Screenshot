@@ -16,3 +16,13 @@ C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common
 C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\obj\Debug\Screenshot.Common.csproj.CopyComplete
 C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\obj\Debug\Screenshot.Common.dll
 C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\obj\Debug\Screenshot.Common.pdb
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\bin\Debug\System.Buffers.dll
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\bin\Debug\System.Memory.dll
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\bin\Debug\System.Buffers.xml
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\bin\Debug\System.Memory.xml
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml

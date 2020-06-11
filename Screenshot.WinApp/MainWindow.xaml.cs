@@ -29,6 +29,7 @@ namespace Screenshot.WinApp
         {
             InitializeComponent();
 
+            FolderPermissionsManager.PermissionsManager();
             LoadTexts();
             RegisterKeyManger.RegisterProgram();
             Run();
