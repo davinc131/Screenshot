@@ -20,9 +20,12 @@ namespace Screenshot.Common
             {
                 var conf = SerializeConfiguration.ReaderXml();
 
+                ProcessStartInfo startInfo = new ProcessStartInfo(conf.PathProgram);
+                startInfo.WindowStyle = ProcessWindowStyle.Maximized;
+
                 string path = conf.PathProgram;
 
-                Process.Start(path);
+                Process.Start(startInfo);
             }
             catch (Exception ex)
             {

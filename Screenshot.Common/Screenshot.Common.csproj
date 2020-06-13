@@ -12,6 +12,8 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -71,6 +73,7 @@
     <Compile Include="SerializeConfiguration.cs" />
     <Compile Include="StartProgram.cs" />
     <Compile Include="ThreadManager.cs" />
+    <Compile Include="User32.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Screenshot.Model\Screenshot.Model.csproj">

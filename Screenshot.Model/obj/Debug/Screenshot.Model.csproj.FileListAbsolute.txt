@@ -1,11 +1,10 @@
-D:\source\repos\Screenshot\Screenshot.Model\bin\Debug\Screenshot.Model.dll
-D:\source\repos\Screenshot\Screenshot.Model\bin\Debug\Screenshot.Model.pdb
-D:\source\repos\Screenshot\Screenshot.Model\obj\Debug\Screenshot.Model.csprojAssemblyReference.cache
-D:\source\repos\Screenshot\Screenshot.Model\obj\Debug\Screenshot.Model.csproj.CoreCompileInputs.cache
-D:\source\repos\Screenshot\Screenshot.Model\obj\Debug\Screenshot.Model.dll
-D:\source\repos\Screenshot\Screenshot.Model\obj\Debug\Screenshot.Model.pdb
 C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Model\bin\Debug\Screenshot.Model.dll
 C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Model\bin\Debug\Screenshot.Model.pdb
 C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Model\obj\Debug\Screenshot.Model.csproj.CoreCompileInputs.cache
 C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Model\obj\Debug\Screenshot.Model.dll
 C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Model\obj\Debug\Screenshot.Model.pdb
+D:\source\repos\Screenshot\Screenshot.Model\bin\Debug\Screenshot.Model.dll
+D:\source\repos\Screenshot\Screenshot.Model\bin\Debug\Screenshot.Model.pdb
+D:\source\repos\Screenshot\Screenshot.Model\obj\Debug\Screenshot.Model.csproj.CoreCompileInputs.cache
+D:\source\repos\Screenshot\Screenshot.Model\obj\Debug\Screenshot.Model.dll
+D:\source\repos\Screenshot\Screenshot.Model\obj\Debug\Screenshot.Model.pdb

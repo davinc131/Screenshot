@@ -17,6 +17,7 @@ namespace Screenshot.Common
 {
     public class ScreenshotImage
     {
+        private static string nameArchive = "Screenshot.png";
         public static void ScreenShot(Window win)
         {
             try
@@ -42,7 +43,7 @@ namespace Screenshot.Common
                 }
 
                 var c = Path.GetDirectoryName(AppDomain.CurrentDomain.BaseDirectory.ToString());
-                var path = Path.Combine(c, "Screenshot.png");
+                var path = Path.Combine(c, nameArchive);
 
                 using (MemoryStream memory = new MemoryStream())
                 {
@@ -59,6 +60,56 @@ namespace Screenshot.Common
             catch (Exception ex)
             {
                 throw new Exception(string.Format("Screenshot Image: {0} \n Detalhes da Exceção: {1}", ex.Message, ex.InnerException));
+            }
+        }
+
+        public static void ScreeshotEspecificProgram(Window win)
+        {
+            try
+            {
+                win.Hide();
+
+                ThreadManager.ThreadManagerApp(5000);
+
+                var proc = Process.GetProcessesByName("TeamViewer")[0];
+
+                var modulos = proc.Modules;
+
+                while(proc == null)
+                {
+                    ThreadManager.ThreadManagerApp(5000);
+                    proc = Process.GetProcessesByName("TeamViewer")[0];
+                }
+
+                var rect = new User32.Rect();
+                User32.GetWindowRect(proc.MainWindowHandle, ref rect);
+
+                int width = rect.right - rect.left;
+                int height = rect.bottom - rect.top;
+
+                var bmp = new Bitmap(width, height, PixelFormat.Format32bppArgb);
+                using (Graphics graphics = Graphics.FromImage(bmp))
+                {
+                    graphics.CopyFromScreen(rect.left, rect.top, 0, 0, new System.Drawing.Size(width, height), CopyPixelOperation.SourceCopy);
+                }
+
+                var c = Path.GetDirectoryName(AppDomain.CurrentDomain.BaseDirectory.ToString());
+                var path = Path.Combine(c, nameArchive);
+
+                using (MemoryStream memory = new MemoryStream())
+                {
+                    using (FileStream fs = new FileStream(path, FileMode.Create, FileAccess.ReadWrite))
+                    {
+                        bmp.Save(memory, ImageFormat.Png);
+                        byte[] bytes = memory.ToArray();
+                        fs.Write(bytes, 0, bytes.Length);
+                    }
+                }
+                win.Show();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Screeshot: " + ex.Message + "\n Detalhes da Exeção: " + ex.InnerException);
             }
         }
     }

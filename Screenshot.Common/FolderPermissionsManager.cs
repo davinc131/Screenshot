@@ -15,7 +15,7 @@ namespace Screenshot.Common
         {
             DirectoryEntry machine = new DirectoryEntry("WinNT://" + Environment.MachineName + ",Computer");
             //var path = Path.GetDirectoryName(AppDomain.CurrentDomain.BaseDirectory.ToString());
-            var path = @"D:\Imagens";
+            //var path = @"D:\Imagens";
 
             if (machine.Children != null)
             {

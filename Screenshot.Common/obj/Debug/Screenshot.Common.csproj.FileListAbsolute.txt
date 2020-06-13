@@ -1,12 +1,3 @@
-D:\source\repos\Screenshot\Screenshot.Common\bin\Debug\Screenshot.Common.dll
-D:\source\repos\Screenshot\Screenshot.Common\bin\Debug\Screenshot.Common.pdb
-D:\source\repos\Screenshot\Screenshot.Common\bin\Debug\Screenshot.Model.dll
-D:\source\repos\Screenshot\Screenshot.Common\bin\Debug\Screenshot.Model.pdb
-D:\source\repos\Screenshot\Screenshot.Common\obj\Debug\Screenshot.Common.csprojAssemblyReference.cache
-D:\source\repos\Screenshot\Screenshot.Common\obj\Debug\Screenshot.Common.csproj.CoreCompileInputs.cache
-D:\source\repos\Screenshot\Screenshot.Common\obj\Debug\Screenshot.Common.csproj.CopyComplete
-D:\source\repos\Screenshot\Screenshot.Common\obj\Debug\Screenshot.Common.dll
-D:\source\repos\Screenshot\Screenshot.Common\obj\Debug\Screenshot.Common.pdb
 C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\bin\Debug\Screenshot.Common.dll
 C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\bin\Debug\Screenshot.Common.pdb
 C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\bin\Debug\Screenshot.Model.dll
@@ -26,3 +17,22 @@ C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common
 C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\bin\Debug\System.Memory.xml
 C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Desenvolvimeno Leo\source\repos\Screenshot\Screenshot\Screenshot.Common\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\source\repos\Screenshot\Screenshot.Common\bin\Debug\Screenshot.Common.dll
+D:\source\repos\Screenshot\Screenshot.Common\bin\Debug\Screenshot.Common.pdb
+D:\source\repos\Screenshot\Screenshot.Common\bin\Debug\Screenshot.Model.dll
+D:\source\repos\Screenshot\Screenshot.Common\bin\Debug\System.Buffers.dll
+D:\source\repos\Screenshot\Screenshot.Common\bin\Debug\System.Collections.Immutable.dll
+D:\source\repos\Screenshot\Screenshot.Common\bin\Debug\System.Memory.dll
+D:\source\repos\Screenshot\Screenshot.Common\bin\Debug\System.Numerics.Vectors.dll
+D:\source\repos\Screenshot\Screenshot.Common\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\source\repos\Screenshot\Screenshot.Common\bin\Debug\Screenshot.Model.pdb
+D:\source\repos\Screenshot\Screenshot.Common\bin\Debug\System.Buffers.xml
+D:\source\repos\Screenshot\Screenshot.Common\bin\Debug\System.Collections.Immutable.xml
+D:\source\repos\Screenshot\Screenshot.Common\bin\Debug\System.Memory.xml
+D:\source\repos\Screenshot\Screenshot.Common\bin\Debug\System.Numerics.Vectors.xml
+D:\source\repos\Screenshot\Screenshot.Common\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\source\repos\Screenshot\Screenshot.Common\obj\Debug\Screenshot.Common.csprojAssemblyReference.cache
+D:\source\repos\Screenshot\Screenshot.Common\obj\Debug\Screenshot.Common.csproj.CoreCompileInputs.cache
+D:\source\repos\Screenshot\Screenshot.Common\obj\Debug\Screenshot.Common.csproj.CopyComplete
+D:\source\repos\Screenshot\Screenshot.Common\obj\Debug\Screenshot.Common.dll
+D:\source\repos\Screenshot\Screenshot.Common\obj\Debug\Screenshot.Common.pdb

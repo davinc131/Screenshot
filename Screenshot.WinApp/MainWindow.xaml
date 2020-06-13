@@ -27,8 +27,7 @@
                     </Grid.RowDefinitions>
                     <StackPanel Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Image Width="100" Source="Apps-screenshot-icon.png"/>
-                        <Label Content="ScreenShot TeamViewer" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" FontSize="18" FontWeight="Bold"/>
-
+                        <Label Content="ScreenShot TeamViewer" Style="{StaticResource HeaderStyle}" Margin="0"/>
                     </StackPanel>
 
                     <ScrollViewer Grid.Row="1" Margin="0,5,0,10" Grid.RowSpan="2">
@@ -41,7 +40,7 @@
                             <Image Source="Screenshot_4.png"  ></Image>
                         </StackPanel>
                     </ScrollViewer>
-                    
+
 
 
 
@@ -51,22 +50,27 @@
                 <Grid Background="#FFE5E5E5" Margin="0">
                     <Grid.RowDefinitions>
                         <RowDefinition/>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                        <RowDefinition/>
+                        <RowDefinition Height="0.4*"/>
+                        <RowDefinition Height="0.4*"/>
+                        <RowDefinition Height="0.4*"/>
+                        <RowDefinition Height="0.4*"/>
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="20*"/>
                         <ColumnDefinition Width="147*"/>
                         <ColumnDefinition Width="553*"/>
                     </Grid.ColumnDefinitions>
-                    <Label Content="Email:" Margin="0,16" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="14" FontWeight="Bold" Grid.ColumnSpan="2"/>
-                    <Label Content="Senha:" Margin="0,16" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="14" FontWeight="Bold" Grid.Row="1" Grid.ColumnSpan="2"/>
-                    <Label Content="Caminho do Programa:" Margin="0,16" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="14" FontWeight="Bold" Grid.Row="2" Grid.ColumnSpan="2"/>
-                    <TextBox x:Name="txtEmail" Grid.Column="2" Height="24" Margin="0,18" TextWrapping="Wrap" Width="542" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                    <TextBox x:Name="txtPath" Grid.Column="2" Height="22" Margin="0,19" TextWrapping="Wrap" VerticalAlignment="Center" Width="542" HorizontalAlignment="Left" Grid.Row="2"/>
-                    <PasswordBox x:Name="txtPassword" Grid.Column="2" HorizontalAlignment="Left" Margin="0,18" Grid.Row="1" VerticalAlignment="Center" Width="542" Height="24"/>
-                    <Button x:Name="btnGravar" Content="Gravar" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="3" VerticalAlignment="Center" Width="75" FontSize="14" FontWeight="Bold" Click="btnGravar_Click" Grid.ColumnSpan="3"/>
+                    <Label Content="Email:" Style="{StaticResource LabelStyle}" Margin="0,16" Grid.ColumnSpan="2" Grid.Row="1"/>
+                    <Label Content="Senha:" Style="{StaticResource LabelStyle}" Margin="0,16" Grid.Row="2" Grid.ColumnSpan="2"/>
+                    <Label Content="Caminho Programa:" Style="{StaticResource LabelStyle}" Margin="0,16" Grid.Row="3" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="txtEmail" Grid.Column="2" Height="24" Margin="0,18" TextWrapping="Wrap" Width="542" HorizontalAlignment="Left" VerticalAlignment="Center" ToolTip="0" Grid.Row="1"/>
+                    <TextBox x:Name="txtPath" Grid.Column="2" Height="22" Margin="0,19" TextWrapping="Wrap" VerticalAlignment="Center" Width="542" HorizontalAlignment="Left" Grid.Row="3" ToolTip="2"/>
+                    <PasswordBox x:Name="txtPassword" Grid.Column="2" HorizontalAlignment="Left" Margin="0,18" Grid.Row="2" VerticalAlignment="Center" Width="542" Height="24" ToolTip="1"/>
+                    <Button x:Name="btnGravar" Content="Gravar" Style="{StaticResource ButtonStyle}" Margin="10,0,0,0" Grid.Row="4" Click="btnGravar_Click" Grid.ColumnSpan="3" ToolTip="3"></Button>
+                    <StackPanel Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="3">
+                        <Image Width="100" Source="Apps-screenshot-icon.png"/>
+                        <Label Content="Configurações" Style="{StaticResource HeaderStyle}" Margin="0"/>
+                    </StackPanel>
                 </Grid>
             </TabItem>
         </TabControl>
